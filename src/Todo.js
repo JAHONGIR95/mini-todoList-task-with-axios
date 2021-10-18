@@ -28,7 +28,7 @@ const Todo = () => {
                         <h5>{`todo completed: ${singleTodo.completed}`}</h5>
                     </div>
                 ) : (
-                    <CircularProgress className="loader" />
+                    <CircularProgress />
                 )
             }
         </div>
